@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DECE84191B45951F0033269C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECE84181B45951F0033269C /* AppDelegate.swift */; };
+		DECE841B1B45951F0033269C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECE841A1B45951F0033269C /* ViewController.swift */; };
+		DECE841E1B45951F0033269C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DECE841C1B45951F0033269C /* Main.storyboard */; };
+		DECE84201B45951F0033269C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DECE841F1B45951F0033269C /* Images.xcassets */; };
+		DECE84231B45951F0033269C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DECE84211B45951F0033269C /* LaunchScreen.xib */; };
+		DECE842F1B45951F0033269C /* FlashAirPhotoBoothTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECE842E1B45951F0033269C /* FlashAirPhotoBoothTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DECE84291B45951F0033269C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DECE840B1B45951F0033269C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DECE84121B45951F0033269C;
+			remoteInfo = FlashAirPhotoBooth;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DECE84131B45951F0033269C /* FlashAirPhotoBooth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlashAirPhotoBooth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DECE84171B45951F0033269C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DECE84181B45951F0033269C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DECE841A1B45951F0033269C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DECE841D1B45951F0033269C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DECE841F1B45951F0033269C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DECE84221B45951F0033269C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DECE84281B45951F0033269C /* FlashAirPhotoBoothTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlashAirPhotoBoothTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DECE842D1B45951F0033269C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DECE842E1B45951F0033269C /* FlashAirPhotoBoothTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashAirPhotoBoothTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DECE84101B45951F0033269C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DECE84251B45951F0033269C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DECE840A1B45951F0033269C = {
+			isa = PBXGroup;
+			children = (
+				DECE84151B45951F0033269C /* FlashAirPhotoBooth */,
+				DECE842B1B45951F0033269C /* FlashAirPhotoBoothTests */,
+				DECE84141B45951F0033269C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DECE84141B45951F0033269C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DECE84131B45951F0033269C /* FlashAirPhotoBooth.app */,
+				DECE84281B45951F0033269C /* FlashAirPhotoBoothTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DECE84151B45951F0033269C /* FlashAirPhotoBooth */ = {
+			isa = PBXGroup;
+			children = (
+				DECE84181B45951F0033269C /* AppDelegate.swift */,
+				DECE841A1B45951F0033269C /* ViewController.swift */,
+				DECE841C1B45951F0033269C /* Main.storyboard */,
+				DECE841F1B45951F0033269C /* Images.xcassets */,
+				DECE84211B45951F0033269C /* LaunchScreen.xib */,
+				DECE84161B45951F0033269C /* Supporting Files */,
+			);
+			path = FlashAirPhotoBooth;
+			sourceTree = "<group>";
+		};
+		DECE84161B45951F0033269C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DECE84171B45951F0033269C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DECE842B1B45951F0033269C /* FlashAirPhotoBoothTests */ = {
+			isa = PBXGroup;
+			children = (
+				DECE842E1B45951F0033269C /* FlashAirPhotoBoothTests.swift */,
+				DECE842C1B45951F0033269C /* Supporting Files */,
+			);
+			path = FlashAirPhotoBoothTests;
+			sourceTree = "<group>";
+		};
+		DECE842C1B45951F0033269C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DECE842D1B45951F0033269C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DECE84121B45951F0033269C /* FlashAirPhotoBooth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DECE84321B45951F0033269C /* Build configuration list for PBXNativeTarget "FlashAirPhotoBooth" */;
+			buildPhases = (
+				DECE840F1B45951F0033269C /* Sources */,
+				DECE84101B45951F0033269C /* Frameworks */,
+				DECE84111B45951F0033269C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlashAirPhotoBooth;
+			productName = FlashAirPhotoBooth;
+			productReference = DECE84131B45951F0033269C /* FlashAirPhotoBooth.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DECE84271B45951F0033269C /* FlashAirPhotoBoothTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DECE84351B45951F0033269C /* Build configuration list for PBXNativeTarget "FlashAirPhotoBoothTests" */;
+			buildPhases = (
+				DECE84241B45951F0033269C /* Sources */,
+				DECE84251B45951F0033269C /* Frameworks */,
+				DECE84261B45951F0033269C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DECE842A1B45951F0033269C /* PBXTargetDependency */,
+			);
+			name = FlashAirPhotoBoothTests;
+			productName = FlashAirPhotoBoothTests;
+			productReference = DECE84281B45951F0033269C /* FlashAirPhotoBoothTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DECE840B1B45951F0033269C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Janosch Achenbach";
+				TargetAttributes = {
+					DECE84121B45951F0033269C = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					DECE84271B45951F0033269C = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = DECE84121B45951F0033269C;
+					};
+				};
+			};
+			buildConfigurationList = DECE840E1B45951F0033269C /* Build configuration list for PBXProject "FlashAirPhotoBooth" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DECE840A1B45951F0033269C;
+			productRefGroup = DECE84141B45951F0033269C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DECE84121B45951F0033269C /* FlashAirPhotoBooth */,
+				DECE84271B45951F0033269C /* FlashAirPhotoBoothTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DECE84111B45951F0033269C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DECE841E1B45951F0033269C /* Main.storyboard in Resources */,
+				DECE84231B45951F0033269C /* LaunchScreen.xib in Resources */,
+				DECE84201B45951F0033269C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DECE84261B45951F0033269C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DECE840F1B45951F0033269C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DECE841B1B45951F0033269C /* ViewController.swift in Sources */,
+				DECE84191B45951F0033269C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DECE84241B45951F0033269C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DECE842F1B45951F0033269C /* FlashAirPhotoBoothTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DECE842A1B45951F0033269C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DECE84121B45951F0033269C /* FlashAirPhotoBooth */;
+			targetProxy = DECE84291B45951F0033269C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DECE841C1B45951F0033269C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DECE841D1B45951F0033269C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DECE84211B45951F0033269C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DECE84221B45951F0033269C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DECE84301B45951F0033269C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		DECE84311B45951F0033269C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DECE84331B45951F0033269C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FlashAirPhotoBooth/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DECE84341B45951F0033269C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FlashAirPhotoBooth/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DECE84361B45951F0033269C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FlashAirPhotoBoothTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlashAirPhotoBooth.app/FlashAirPhotoBooth";
+			};
+			name = Debug;
+		};
+		DECE84371B45951F0033269C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FlashAirPhotoBoothTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlashAirPhotoBooth.app/FlashAirPhotoBooth";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DECE840E1B45951F0033269C /* Build configuration list for PBXProject "FlashAirPhotoBooth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DECE84301B45951F0033269C /* Debug */,
+				DECE84311B45951F0033269C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DECE84321B45951F0033269C /* Build configuration list for PBXNativeTarget "FlashAirPhotoBooth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DECE84331B45951F0033269C /* Debug */,
+				DECE84341B45951F0033269C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DECE84351B45951F0033269C /* Build configuration list for PBXNativeTarget "FlashAirPhotoBoothTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DECE84361B45951F0033269C /* Debug */,
+				DECE84371B45951F0033269C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DECE840B1B45951F0033269C /* Project object */;
+}
